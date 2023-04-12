@@ -16,8 +16,6 @@
 		B324F2BC29E2D14300C319CC /* SettingsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B324F2BB29E2D14300C319CC /* SettingsPresenter.swift */; };
 		B3B521F629E5500000FCEDED /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B521F529E54FFF00FCEDED /* SettingsModel.swift */; };
 		B3B521F929E6B9AE00FCEDED /* SettingsVIP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B521F829E6B9AE00FCEDED /* SettingsVIP.swift */; };
-		B3B521FB29E6B9D800FCEDED /* SettingVIPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B521FA29E6B9D800FCEDED /* SettingVIPresenter.swift */; };
-		B3B521FD29E6B9E400FCEDED /* SettingsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B521FC29E6B9E400FCEDED /* SettingsInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +29,6 @@
 		B324F2BB29E2D14300C319CC /* SettingsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPresenter.swift; sourceTree = "<group>"; };
 		B3B521F529E54FFF00FCEDED /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
 		B3B521F829E6B9AE00FCEDED /* SettingsVIP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVIP.swift; sourceTree = "<group>"; };
-		B3B521FA29E6B9D800FCEDED /* SettingVIPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVIPresenter.swift; sourceTree = "<group>"; };
-		B3B521FC29E6B9E400FCEDED /* SettingsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				B3B521F829E6B9AE00FCEDED /* SettingsVIP.swift */,
-				B3B521FA29E6B9D800FCEDED /* SettingVIPresenter.swift */,
-				B3B521FC29E6B9E400FCEDED /* SettingsInteractor.swift */,
 			);
 			path = VIP;
 			sourceTree = "<group>";
@@ -174,7 +168,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3B521FB29E6B9D800FCEDED /* SettingVIPresenter.swift in Sources */,
 				B3B521F929E6B9AE00FCEDED /* SettingsVIP.swift in Sources */,
 				B3B521F629E5500000FCEDED /* SettingsModel.swift in Sources */,
 				B324F2AB29E2C4FD00C319CC /* ContentView.swift in Sources */,
@@ -182,7 +175,6 @@
 				B324F2A929E2C4FD00C319CC /* HW4App.swift in Sources */,
 				B324F2B729E2C59000C319CC /* SettingsViewModel.swift in Sources */,
 				B324F2BC29E2D14300C319CC /* SettingsPresenter.swift in Sources */,
-				B3B521FD29E6B9E400FCEDED /* SettingsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
